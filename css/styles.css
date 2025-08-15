@@ -1,27 +1,19 @@
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      /* justify-content: center; */
-      flex-direction: column;
-      font-family: 'Roboto Condensed', sans-serif;
-      color: white;
-      background-color: black;
-      text-align: center;
-    }
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;       /* horizontal centering for h1 */
+  padding-top: 2rem;        /* space above the logo */
+}
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
+img.logo {
+  display: inline-block;    /* makes margin auto / text-align center work */
+  width: 300px;             /* adjust size as needed */
+  height: auto;
+  margin-bottom: 1rem;      /* space between logo and h1 */
+}
 
-    p {
-      font-size: 1.2rem;
-    }
-
-    img.logo {
-      width: 512px;
-      height: auto;
-      margin-bottom: 2rem;
-    }
+h1 {
+  margin: 0;
+}
