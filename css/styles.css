@@ -1,9 +1,11 @@
-body {
-  margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: white;
-  background-color: black;
-  text-align: center;
+@import "tailwindcss";
+
+html, body {
+  background-color: #000;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
 img.logo {
@@ -14,7 +16,24 @@ img.logo {
   margin: 1rem;
 }
 
-h1 {
-   margin: 0 0 5rem 0;
-  text-align: center;
+/* * {
+  border: 1px solid red;
+} */
+
+@media (max-width: 839px) {
+  #menu {
+    display: none;
+  }
+  #menu-toggle {
+    display: block;
+  }
+}
+
+@media (min-width: 840px) {
+  #menu {
+    display: flex;
+  }
+  #menu-toggle {
+    display: none;
+  }
 }

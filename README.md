@@ -1,2 +1,2 @@
 # studiotwofours
-Studio Two Fours
+This is Studio Two Fours. We make games!
