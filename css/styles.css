@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 html, body {
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: slategrey
 }
 
 .font-roboto {
@@ -12,19 +13,11 @@ html, body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* img.logo {
-  display: inline-block;
-  width: 512px;
-  max-width: 90vw;
-  height: auto;
-  margin: 1rem;
-} */
-
 /* * {
   border: 1px solid red;
 } */
 
-@media (max-width: 839px) {
+@media (max-width: 554px) {
   #menu {
     display: none;
   }
@@ -33,7 +26,7 @@ html, body {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 555px) {
   #menu {
     display: flex;
   }
@@ -41,3 +34,10 @@ html, body {
     display: none;
   }
 }
+
+@media (max-width: 370px) {
+  #navbar-title {
+    display: none;
+  }
+}
+
