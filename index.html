@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body class="font-roboto text-white text-lg flex flex-col min-h-screen relative overflow-x-hidden">
+<body class="font-roboto-condensed text-white text-lg flex flex-col min-h-screen relative overflow-x-hidden">
 
   <!-- Background image div -->
   <!-- <div
@@ -31,41 +31,20 @@
   <nav class="bg-black bg-opacity-90 fixed top-0 w-full z-30">
     <div class="max-w-5xl mx-auto px-4 py-5 flex justify-between items-center relative">
       
-      <div class="text-3xl font-semibold whitespace-nowrap">
-        Brian Kenji Stong
+      <div class="text-3xl font-bold whitespace-nowrap">
+        STUDIO TWO FOURS
       </div>
 
       <!-- Links container -->
-      <div id="menu" class="flex space-x-6 text-base font-medium">
-        <a href="assets/files/Brian_Stong_Resume_GameDeveloper.pdf" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
-          <i class="fas fa-file-alt"></i>
-          &nbsp;
-          <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
-            Resume
-          </span>
-        </a>
-        <a href="https://github.com/Stonger44" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap  group">
-          <i class="fab fa-github"></i>
-          &nbsp;
-          <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
-            GitHub
-          </span>
-        </a>
-        <a href="https://medium.com/@stonger44" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
-          <i class="fab fa-medium"></i>
-          &nbsp;
-          <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
-            Medium
-          </span>
-        </a>
-        <a href="https://stonger44.itch.io/" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
+      <div id="menu" class="flex space-x-6 text-base font-medium font-roboto">
+        <a href="https://studiotwofours.itch.io" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
           <img src="./assets/images/itchio-logo-textless-white.png" class="w-4 h-4 select-none" alt="Itch.io" />
           &nbsp;
           <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
             Itch.io
           </span>
         </a>
-        <a href="https://www.linkedin.com/in/brian-stong/" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
+        <a href="https://www.linkedin.com/company/108629121" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
           <i class="fab fa-linkedin"></i>
           &nbsp;
           <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
@@ -86,28 +65,13 @@
     <!-- Mobile menu (shown when hamburger clicked) -->
     <div id="mobile-menu" class="max-h-0 overflow-hidden transition-all duration-75 ease-in-out py-0 flex-col space-y-4 bg-black bg-opacity-90 px-4 text-xl font-medium max-w-5xl mx-auto absolute right-0">
       <div>
-        <a href="assets/files/Brian_Stong_Resume_GameDeveloper.pdf" target="_blank" class="inline-flex items-center whitespace-nowrap">
-          <i class="fas fa-file-alt"></i>&nbsp;<span>Resume</span>
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/Stonger44" target="_blank" class="inline-flex items-center whitespace-nowrap">
-          <i class="fab fa-github"></i>&nbsp;<span>GitHub</span>
-        </a>
-      </div>
-      <div>
-        <a href="https://medium.com/@stonger44" target="_blank" class="inline-flex items-center whitespace-nowrap">
-          <i class="fab fa-medium"></i>&nbsp;<span>Medium</span>
-        </a>
-      </div>
-      <div>
-        <a href="https://stonger44.itch.io/" target="_blank" class="inline-flex items-center whitespace-nowrap">
+        <a href="https://studiotwofours.itch.io" target="_blank" class="inline-flex items-center whitespace-nowrap">
           <img src="./assets/images/itchio-logo-textless-white.png" class="w-5 h-5 translate-x-[2px] select-none" alt="Itch.io" />
           &nbsp;<span class="translate-x-[5px]">Itch.io</span>
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/brian-stong/" target="_blank" class="inline-flex items-center whitespace-nowrap">
+        <a href="https://www.linkedin.com/company/108629121" target="_blank" class="inline-flex items-center whitespace-nowrap">
           <i class="fab fa-linkedin"></i>&nbsp;<span>LinkedIn</span>
         </a>
       </div>
@@ -118,29 +82,26 @@
   <main class="flex-1 flex flex-col relative z-20 px-4 pt-20 pb-10">
     <div class="max-w-5xl w-full mx-auto">
 
-      <img class="logo" src="assets/images/StudioTwoFours_Logo_2000x2000_Transparent.png" alt="Studio Two Fours Logo">
-      <h1 class="text-3xl">SITE COMING SOON!</h1>
+      <div class="text-center">
+        <img 
+          src="assets/images/StudioTwoFours_Logo_2000x2000_Transparent.png" 
+          alt="Studio Two Fours Logo"
+          class="w-full mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto"
+        >
+        <h1 class="text-3xl font-bold">SITE COMING SOON!</h1>
+      </div>
 
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="relative z-30 mt-auto bg-black text-center py-6 select-text w-full">
+  <footer class="relative z-30 mt-auto bg-black text-center py-6 select-text w-full font-roboto">
 
     <nav class="my-6 text-3xl">
-      <a href="assets/files/Brian_Stong_Resume_GameDeveloper.pdf" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[65%]">
-        <i class="fas fa-file-alt"></i>
-      </a>
-      <a href="https://github.com/Stonger44" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://medium.com/@stonger44" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
-        <i class="fab fa-medium"></i>
-      </a>
-      <a href="https://stonger44.itch.io/" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-10px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[90%]">
+      <a href="https://studiotwofours.itch.io" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-10px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[90%]">
         <img src="./assets/images/itchio-logo-textless-white.png" class="w-7 h-7 relative top-[2px] select-none"></img>
       </a>
-      <a href="https://www.linkedin.com/in/brian-stong/" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
+      <a href="https://www.linkedin.com/company/108629121" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
         <i class="fab fa-linkedin"></i>
       </a>
     </nav>

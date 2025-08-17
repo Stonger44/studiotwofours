@@ -8,13 +8,17 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
-img.logo {
+.font-roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* img.logo {
   display: inline-block;
   width: 512px;
   max-width: 90vw;
   height: auto;
   margin: 1rem;
-}
+} */
 
 /* * {
   border: 1px solid red;
