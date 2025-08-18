@@ -28,24 +28,41 @@
   <div class="fixed inset-0 z-10 bg-black/30"></div>
 
   <!-- Navbar -->
-  <nav class="bg-black bg-opacity-90 fixed top-0 w-full z-30">
+  <nav class="bg-black bg-opacity-90 fixed top-0 w-full z-30 border-b border-white">
     <div class="max-w-5xl mx-auto px-4 py-1 flex justify-between items-center relative">
       
-      <div class="flex items-center">
-        <span id="navbar-title" class="text-3xl font-roboto-condensed whitespace-nowrap leading-none">STUDIO TWO FOURS</span>
-        <img src="assets/images/StudioTwoFours_Dice_512x512_Transparent.png" class="w-auto h-16 select-none" alt="Studio Two Fours Dice" />
+      <!-- Logo and title -->
+      <div>
+        <a href="https://studiotwofours.com/" class="flex items-center">
+          <span id="navbar-title" class="text-3xl font-roboto-condensed whitespace-nowrap leading-none">STUDIO TWO FOURS</span>
+          <img src="assets/images/StudioTwoFours_Dice_512x512_Transparent.png" class="inline-block w-auto h-16 select-none" alt="Studio Two Fours Dice" />
+        </a>
       </div>
 
       <!-- Links container -->
-      <div id="menu" class="flex space-x-6 text-base font-medium">
-        <a href="https://studiotwofours.itch.io" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
+      <div id="menu" class="flex space-x-6 text-lg font-medium">
+        <a href="https://studiotwofours.itch.io" target="_blank" class="inline-flex items-center whitespace-nowrap group">
           <img src="./assets/images/itchio-logo-textless-white.png" class="w-4 h-4 select-none" alt="Itch.io" />
           &nbsp;
           <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
             Itch.io
           </span>
         </a>
-        <a href="https://www.linkedin.com/company/studio-two-fours" target="_blank" class="text-lg font-medium inline-flex items-center whitespace-nowrap group">
+        <a href="https://www.youtube.com/@StudioTwoFours" target="_blank" class="inline-flex items-center whitespace-nowrap group">
+          <i class="fab fa-youtube"></i>
+          &nbsp;
+          <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
+            YouTube
+          </span>
+        </a>
+        <a href="https://x.com/studiotwofours" target="_blank" class="inline-flex items-center whitespace-nowrap group">
+          <i class="fab fa-x-twitter"></i>
+          &nbsp;
+          <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
+            Twitter
+          </span>
+        </a>
+        <a href="https://www.linkedin.com/company/studio-two-fours" target="_blank" class="inline-flex items-center whitespace-nowrap group">
           <i class="fab fa-linkedin"></i>
           &nbsp;
           <span class="relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
@@ -72,6 +89,16 @@
         </a>
       </div>
       <div>
+        <a href="https://www.youtube.com/@StudioTwoFours" target="_blank" class="inline-flex items-center whitespace-nowrap">
+          <i class="fab fa-youtube"></i>&nbsp;<span>YouTube</span>
+        </a>
+      </div>
+      <div>
+        <a href="https://x.com/studiotwofours" target="_blank" class="inline-flex items-center whitespace-nowrap">
+          <i class="fab fa-x-twitter"></i>&nbsp;<span>Twitter</span>
+        </a>
+      </div>
+      <div>
         <a href="https://www.linkedin.com/company/studio-two-fours" target="_blank" class="inline-flex items-center whitespace-nowrap">
           <i class="fab fa-linkedin"></i>&nbsp;<span>LinkedIn</span>
         </a>
@@ -83,15 +110,6 @@
   <main class="flex-1 flex flex-col relative z-20 px-4 pt-20 pb-10">
     <div class="max-w-5xl w-full mx-auto">
 
-      <!-- <div class="text-center">
-        <img 
-          src="assets/images/StudioTwoFours_Logo_2000x2000_Transparent.png" 
-          alt="Studio Two Fours Logo"
-          class="w-full mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto"
-        >
-        <h1 class="text-3xl font-roboto-condensed">COMING SOON!</h1>
-      </div> -->
-
     <!-- Hero -->
     <div class="text-center mb-16">
       <img src="assets/images/StudioTwoFours_Logo_2000x2000_Transparent.png" 
@@ -100,26 +118,29 @@
       <h1 class="text-3xl font-roboto-condensed">Crafting fun</h1>
     </div>
 
-    <!-- About / placeholder -->
-    <!-- <div class="text-center mb-16">
-      <p class="text-lg max-w-xl mx-auto"></p>
-    </div> -->
+    <hr class="w-1/2 mx-auto" />
 
     <!-- Projects placeholder -->
-    <!-- <div class="text-center mb-16">
-      <h1 class="text-4xl mb-4">GAMES</h1>
+    <div class="font-roboto-condensed text-center m-16">
+      <h1 class="text-5xl mb-5">GAMES</h1>
       <p class="text-2xl">Coming Soon!</p>
-    </div> -->
+    </div>
 
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="relative z-30 mt-auto bg-black text-center py-6 select-text w-full">
+  <footer class="relative z-30 mt-auto bg-black text-center py-6 select-text w-full border-t border-white">
 
     <nav class="my-6 text-3xl">
       <a href="https://studiotwofours.itch.io" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-10px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[90%]">
         <img src="./assets/images/itchio-logo-textless-white.png" class="w-7 h-7 relative top-[2px] select-none"></img>
+      </a>
+      <a href="https://www.youtube.com/@StudioTwoFours" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://x.com/studiotwofours" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
+        <i class="fab fa-x-twitter"></i>
       </a>
       <a href="https://www.linkedin.com/company/studio-two-fours" target="_blank" class="mx-2 inline-flex items-center whitespace-nowrap relative after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-6px] after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-[75%]">
         <i class="fab fa-linkedin"></i>
